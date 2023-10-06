@@ -11,6 +11,15 @@
 		B649805B2AD0063F0078156C /* sdk_questions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64980502AD0063F0078156C /* sdk_questions.framework */; };
 		B64980602AD0063F0078156C /* sdk_questionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649805F2AD0063F0078156C /* sdk_questionsTests.swift */; };
 		B64980612AD0063F0078156C /* sdk_questions.h in Headers */ = {isa = PBXBuildFile; fileRef = B64980532AD0063F0078156C /* sdk_questions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B649806E2AD0077B0078156C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649806D2AD0077B0078156C /* Question.swift */; };
+		B64980702AD007F60078156C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649806F2AD007F60078156C /* Answer.swift */; };
+		B64980722AD009300078156C /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64980712AD009300078156C /* Statistics.swift */; };
+		B64980742AD009A00078156C /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64980732AD009A00078156C /* Statistic.swift */; };
+		B64980762AD00B1F0078156C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64980752AD00B1F0078156C /* Login.swift */; };
+		B64980782AD00B290078156C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64980772AD00B290078156C /* User.swift */; };
+		B649807A2AD00D240078156C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64980792AD00D240078156C /* Exercise.swift */; };
+		B649807C2AD00DBE0078156C /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649807B2AD00DBE0078156C /* Auth.swift */; };
+		B649807E2AD00E0F0078156C /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649807D2AD00E0F0078156C /* UserLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		B64980542AD0063F0078156C /* sdk_questions.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = sdk_questions.docc; sourceTree = "<group>"; };
 		B649805A2AD0063F0078156C /* sdk-questionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sdk-questionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B649805F2AD0063F0078156C /* sdk_questionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sdk_questionsTests.swift; sourceTree = "<group>"; };
+		B649806D2AD0077B0078156C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B649806F2AD007F60078156C /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		B64980712AD009300078156C /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		B64980732AD009A00078156C /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		B64980752AD00B1F0078156C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B64980772AD00B290078156C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B64980792AD00D240078156C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B649807B2AD00DBE0078156C /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		B649807D2AD00E0F0078156C /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,9 @@
 		B64980522AD0063F0078156C /* sdk-questions */ = {
 			isa = PBXGroup;
 			children = (
+				B649806C2AD0075C0078156C /* Questions */,
+				B649806B2AD007300078156C /* Statistics */,
+				B649806A2AD007240078156C /* Login */,
 				B64980532AD0063F0078156C /* sdk_questions.h */,
 				B64980542AD0063F0078156C /* sdk_questions.docc */,
 			);
@@ -83,6 +104,36 @@
 				B649805F2AD0063F0078156C /* sdk_questionsTests.swift */,
 			);
 			path = "sdk-questionsTests";
+			sourceTree = "<group>";
+		};
+		B649806A2AD007240078156C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B64980752AD00B1F0078156C /* Login.swift */,
+				B64980772AD00B290078156C /* User.swift */,
+				B649807B2AD00DBE0078156C /* Auth.swift */,
+				B649807D2AD00E0F0078156C /* UserLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B649806B2AD007300078156C /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				B64980712AD009300078156C /* Statistics.swift */,
+				B64980732AD009A00078156C /* Statistic.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		B649806C2AD0075C0078156C /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				B649806D2AD0077B0078156C /* Question.swift */,
+				B649806F2AD007F60078156C /* Answer.swift */,
+				B64980792AD00D240078156C /* Exercise.swift */,
+			);
+			path = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64980702AD007F60078156C /* Answer.swift in Sources */,
+				B649807A2AD00D240078156C /* Exercise.swift in Sources */,
 				B64980552AD0063F0078156C /* sdk_questions.docc in Sources */,
+				B64980722AD009300078156C /* Statistics.swift in Sources */,
+				B64980762AD00B1F0078156C /* Login.swift in Sources */,
+				B64980742AD009A00078156C /* Statistic.swift in Sources */,
+				B649807E2AD00E0F0078156C /* UserLogin.swift in Sources */,
+				B649806E2AD0077B0078156C /* Question.swift in Sources */,
+				B64980782AD00B290078156C /* User.swift in Sources */,
+				B649807C2AD00DBE0078156C /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +462,7 @@
 		B64980682AD0063F0078156C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LV2X84473;
@@ -418,6 +479,7 @@
 		B64980692AD0063F0078156C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LV2X84473;
