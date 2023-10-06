@@ -89,9 +89,8 @@
 		B64980522AD0063F0078156C /* sdk-questions */ = {
 			isa = PBXGroup;
 			children = (
-				B649806C2AD0075C0078156C /* Questions */,
-				B649806B2AD007300078156C /* Statistics */,
-				B649806A2AD007240078156C /* Login */,
+				B64980A62AD01B4E0078156C /* Services */,
+				B64980A52AD01B300078156C /* Models */,
 				B64980532AD0063F0078156C /* sdk_questions.h */,
 				B64980542AD0063F0078156C /* sdk_questions.docc */,
 			);
@@ -134,6 +133,31 @@
 				B64980792AD00D240078156C /* Exercise.swift */,
 			);
 			path = Questions;
+			sourceTree = "<group>";
+		};
+		B64980A52AD01B300078156C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B649806A2AD007240078156C /* Login */,
+				B649806C2AD0075C0078156C /* Questions */,
+				B649806B2AD007300078156C /* Statistics */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B64980A62AD01B4E0078156C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B64980A72AD01B590078156C /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B64980A72AD01B590078156C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
